@@ -7,6 +7,7 @@ import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app.routing";
 import { CheckoutComponent } from "./components/checkout/checkout.component";
 import { OrderConfirmationComponent } from "./components/order-confirmation/order-confirmation.component";
+import { PaymentComponent} from "./components/payment/payment.component";
 import { ShoppingCartComponent } from "./components/shopping-cart/shopping-cart.component";
 import { StoreFrontComponent } from "./components/store-front/store-front.component";
 import { PopulatedCartRouteGuard } from "./route-gaurds/populated-cart.route-gaurd";
@@ -22,7 +23,8 @@ import { LocalStorageServie, StorageService } from "./services/storage.service";
     ShoppingCartComponent,
     StoreFrontComponent,
     CheckoutComponent,
-    OrderConfirmationComponent
+    OrderConfirmationComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
